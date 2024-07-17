@@ -1,0 +1,8 @@
+platform :ios, '15.0'
+use_frameworks!
+workspace 'Map.xcworkspace'
+
+target 'Map' do
+  project 'Map.xcodeproj'
+  pod 'NMapsMap', '~> 3.18.0'
+end
