@@ -23,7 +23,7 @@ let package = Package(
         .iOS(.v15)
     ],
     dependencies: [
-        .package(url: "https://github.com/ej2p/MobileChiperLibrary.git", from: "1.0.0")
+        .package(url: "https://github.com/ej2p/MobileChiperLibrary.git", from: "1.0.1")
     ],
     targets: [
         .target(
